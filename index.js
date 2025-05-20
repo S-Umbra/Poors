@@ -71,3 +71,8 @@ document.querySelector('.mas').addEventListener('click', function(e) {
 
 });
   
+
+document.querySelector('menu-button').addEventListener('click', function () {
+  const menu = document.querySelector('menu');
+  menu.classList.toggle('show');
+});
